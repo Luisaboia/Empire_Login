@@ -1,0 +1,107 @@
+html, body {
+  display: flex;
+  margin: 0;
+  height: 100%; 
+  overflow: hidden
+}
+
+body{
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  color: #F13C55;
+  font-size: 1rem;
+}
+
+/* Header */
+
+#header{
+  color: #F4F4F4;
+  margin-left: 10%;
+  height: 1000px;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+
+#header h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10% 0;
+}
+
+#header h2{
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 6% 0 0 0;
+  width: 31.25rem;
+}
+
+.headerTitle{
+  height: 0;
+}
+
+/* Form */
+
+#signupForm{
+  background-color: #F4F4F4;
+  position: absolute;
+  margin: 0 0 0 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.form{
+  text-align: left;
+  padding: 15% 0 0 20%
+}
+
+.username, .email, .password, .confirmPass{
+  color: #D1D1D1;
+  text-transform: uppercase;
+}
+
+label, input{
+  margin: 2rem 0 2rem 0;
+}
+
+input[type="text"], input[type="password"]{
+  border: none;
+  background-color: transparent; 
+  border-bottom: 1px solid #D1D1D1;
+  color: #A59E9F;
+  font-size: 24px;
+}
+
+input[type="password"]{
+  color: #F13C55;
+}
+
+input:focus{
+  outline: none;
+}
+
+.buttonForm {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  background: #F13C55;
+  border: none;
+  border-radius: 28px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 16px 60px 16px 60px;
+  margin-right: 4.375rem;
+  text-transform: uppercase;
+}
+
+.buttonForm:hover {
+  cursor: pointer;
+}
+
+.memberAlready{
+  color: #A59E9F;
+}
